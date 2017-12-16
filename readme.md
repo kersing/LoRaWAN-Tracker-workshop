@@ -4,7 +4,22 @@ In this workshop we will build a LoRaWAN tracker node for use on The Things Netw
 
 ## Hardware
 
-The hardware used for this workshop is the LORA32U4 module and a (cheap) GPS module. Additionally a FET, two resistors and some wires are required.
+The hardware used for this workshop is:
+
+- LORA32U4 module
+- a (cheap) GPS module from ebay or Aliexpress (check the pictures in the other parts to see which one I mean)
+- MOSFET IPP45P03P4L11AKSA1
+- 1K resistor
+- 10K resistor
+- heat shrink tubing in several sizes
+- some wire
+
+Equipment required:
+
+- soldering iron (and solder)
+- heat gun for the heat shrink tubing
+- cutter
+- wire stripper
 
 ## Connecting DIO1 to D6
 
@@ -119,7 +134,7 @@ Keep this page open, we will need some of the information during the next steps.
 
 Everything is now in place to start coding our first Arduino sketch to connect our hardware to TTN.
 
-Download the sample sketch from [https://raw.githubusercontent.com/kersing/node-workshop/master/lora32u4-sketch/lora32u4-sketch.ino](https://raw.githubusercontent.com/kersing/node-workshop/master/lora32u4-sketch/lora32u4-sketch.ino) or cut-and-paste the code below:
+Download the sample sketch from [https://raw.githubusercontent.com/kersing/LoRaWAN-Tracker-workshop/master/board-test/board-test.ino](https://raw.githubusercontent.com/kersing/LoRaWAN-Tracker-workshop/master/board-test/board-test.ino) or cut-and-paste the code below:
 ```
 /*******************************************************************************
  * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
